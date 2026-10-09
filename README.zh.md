@@ -2,6 +2,8 @@
 
 [English](README.md) | 中文
 
+[![CI](https://github.com/jueshali/dsh-plugin-kegel/actions/workflows/ci.yml/badge.svg)](https://github.com/jueshali/dsh-plugin-kegel/actions/workflows/ci.yml)
+
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 用的**提肛（凯格尔）提醒器**：
 按间隔提醒你一次，然后用提示音带着你做完一组「收紧 / 放松」。
 

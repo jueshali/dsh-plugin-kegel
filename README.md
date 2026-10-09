@@ -2,6 +2,8 @@
 
 English | [中文](README.zh.md)
 
+[![CI](https://github.com/jueshali/dsh-plugin-kegel/actions/workflows/ci.yml/badge.svg)](https://github.com/jueshali/dsh-plugin-kegel/actions/workflows/ci.yml)
+
 A **Kegel (pelvic-floor) reminder** for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) — an
 interval timer that nudges you once an hour and then guides a set of squeeze/release reps with audio cues.
 
