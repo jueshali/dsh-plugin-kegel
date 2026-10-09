@@ -1,0 +1,60 @@
+{
+  "name": "dsh-plugin-kegel",
+  "version": "0.1.0",
+  "description": "Kegel reminder for DeepSeek Harness: an interval timer with guided squeeze/release sets — a chip at the top-left of the conversation plus a full panel in the sidebar.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "kegel",
+    "pelvic-floor",
+    "reminder",
+    "timer"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jueshali/dsh-plugin-kegel.git"
+  },
+  "homepage": "https://github.com/jueshali/dsh-plugin-kegel#readme",
+  "bugs": {
+    "url": "https://github.com/jueshali/dsh-plugin-kegel/issues"
+  },
+  "author": "Pengcheng Li <pengchengli97@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+# dependencies (the package itself declares none; these are build/verify leftovers)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# logs and editor/OS noise
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

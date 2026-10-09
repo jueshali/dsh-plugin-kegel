@@ -1,0 +1,10 @@
+# Bundle patch layer for dsh-plugin-kegel.
+#
+# One row: the plugin itself. Its node half is an empty apply() (so the entry
+# exists in the host Loader tree); the browser half ships through
+# package.json's exports["./client"], discovered by the `dsh.client`
+# declaration and served by @deepseek-ai/dsh-client-modules under
+# /plugins/<package name>/client.js.
+- insert:
+    - id: ui-kegel
+      name: 'dsh-plugin-kegel'
