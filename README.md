@@ -25,6 +25,10 @@ It is a reminder, **not medical advice** and not a training log. Go at a comfort
          (waiting → start · squeezing → pause/resume)
 ```
 
+![The panel mid-set: a five-second squeeze, rep 1 of 10, settings expanded](docs/screenshot.png)
+
+*The full panel mid-set (Chinese UI — the plugin ships both `zh` and `en` dictionaries).*
+
 The chip sits in the window-drag band of the conversation header, so it carries its own
 `-webkit-app-region: no-drag`, written as `.kg_chip.kg_chip` to outrank the host's
 `[data-window-drag]` rule regardless of stylesheet order — otherwise a click would drag the window.
